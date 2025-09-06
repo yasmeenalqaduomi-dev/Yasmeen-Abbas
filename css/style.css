@@ -1,1 +1,27 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  margin: 20px;
+  background: #f5f7fa;
+  text-align: center;
+}
 
+h1 {
+  color: #2d3436;
+}
+
+button {
+  background: #0984e3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #74b9ff;
+}
+
+select {
+  padding: 5px;
+}
