@@ -1,1 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>تحديات يومية قصيرة 🎯</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>تحديات يومية قصيرة 🎯</h1>
 
+  <div id="auth-area">
+    <button id="btn-login">تسجيل الدخول بحساب Google</button>
+  </div>
+
+  <div id="main-area" style="display:none;">
+    <h2>اختر مادة</h2>
+    <select id="subject-select"></select>
+    <button id="btn-save">حفظ</button>
+    <p id="status"></p>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging-compat.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
